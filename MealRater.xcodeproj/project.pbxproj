@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B7B0921E2CD8474B002B6229 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B0921C2CD84748002B6229 /* Main.swift */; };
 		B7B092212CD847AA002B6229 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B0921F2CD847A0002B6229 /* RatingView.swift */; };
+		B7C2898C2CE707C800B2ABA9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7C2898A2CE707C800B2ABA9 /* Model.xcdatamodeld */; };
+		B7C2898F2CE7082000B2ABA9 /* MealRatingEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C2898D2CE7082000B2ABA9 /* MealRatingEntity+CoreDataClass.swift */; };
+		B7C289902CE7082000B2ABA9 /* MealRatingEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C2898E2CE7082000B2ABA9 /* MealRatingEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		B7B092092CD83E80002B6229 /* MealRaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealRaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B0921C2CD84748002B6229 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		B7B0921F2CD847A0002B6229 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		B7C2898B2CE707C800B2ABA9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B7C2898D2CE7082000B2ABA9 /* MealRatingEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealRatingEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B7C2898E2CE7082000B2ABA9 /* MealRatingEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealRatingEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +88,9 @@
 		B7B091E62CD83E7E002B6229 = {
 			isa = PBXGroup;
 			children = (
+				B7C2898D2CE7082000B2ABA9 /* MealRatingEntity+CoreDataClass.swift */,
+				B7C2898E2CE7082000B2ABA9 /* MealRatingEntity+CoreDataProperties.swift */,
+				B7C2898A2CE707C800B2ABA9 /* Model.xcdatamodeld */,
 				B7B091F12CD83E7E002B6229 /* MealRater */,
 				B7B092022CD83E80002B6229 /* MealRaterTests */,
 				B7B0920C2CD83E80002B6229 /* MealRaterUITests */,
@@ -245,8 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C2898F2CE7082000B2ABA9 /* MealRatingEntity+CoreDataClass.swift in Sources */,
+				B7C289902CE7082000B2ABA9 /* MealRatingEntity+CoreDataProperties.swift in Sources */,
 				B7B092212CD847AA002B6229 /* RatingView.swift in Sources */,
 				B7B0921E2CD8474B002B6229 /* Main.swift in Sources */,
+				B7C2898C2CE707C800B2ABA9 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +575,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7C2898A2CE707C800B2ABA9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7C2898B2CE707C800B2ABA9 /* Model.xcdatamodel */,
+			);
+			currentVersion = B7C2898B2CE707C800B2ABA9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B7B091E72CD83E7E002B6229 /* Project object */;
 }
